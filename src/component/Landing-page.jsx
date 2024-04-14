@@ -14,7 +14,7 @@ function Landing() {
                 <motion.div initial={{ width: 0 }} animate={{ width: "7.5vw" }} transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }} className="md:w-[7.5vw] w-[20vw] md:h-[4.5vw]  ">
                   <img src='https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg' alt="" className="object-fill rounded-xl" />
                 </motion.div>)}
-              <h1 className="font-mono uppercase font-bold md:text-[7vw] text-[13vw] md:leading-[6vw] sm:leading-[10vw] tracking-tighter w-fit ">
+              <h1 className="font-mono uppercase font-bold md:text-[7vw] text-[13vw] md:leading-[6vw] leading-none tracking-tighter w-fit ">
                 {item}
               </h1>
             </div>
