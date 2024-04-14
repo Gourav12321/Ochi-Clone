@@ -1,0 +1,29 @@
+
+.container1{
+    /* w-full pt-[5vw] px-[4vw] justify-between */
+    padding-top: 5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    justify-content: space-between;
+    /* width:100%; */
+    grid-area: cards;
+    /* position: relative; */
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 'cards cards'
+                         'cards cards';
+}
+.cards{
+
+    padding-bottom: 3vw;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .container1{
+        display: grid;
+        grid-template-areas: 'cards'
+                            ' cards'
+                            'cards'
+                            ' cards';
+    }
+}
