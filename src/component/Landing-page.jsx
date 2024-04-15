@@ -35,7 +35,7 @@ function Landing() {
           <button className="md:w-[15vw] text-[1.3vw] justify-center border-[1px] border-zinc-800 rounded-full uppercase px-4">
             Start The Project
           </button>
-          <div className="border-[1px] border-zinc-900 ml-1 w-[2vw] h-[2vw] md:w-[2.5vw] md:h-[2.5vw] rounded-[100%] flex justify-center items-center rotate-45">
+          <div className="border-[1px] border-zinc-900 ml-1 w-[5vw] h-[5vw] md:w-[2.5vw] md:h-[2.5vw] rounded-[100%] flex justify-center items-center rotate-45">
             <span>
               <FaArrowUpLong />
             </span>
