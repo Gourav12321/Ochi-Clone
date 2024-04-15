@@ -18,7 +18,7 @@
     padding-bottom: 3vw;
     width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .container1{
         display: grid;
         grid-template-areas: 'cards'
@@ -26,4 +26,15 @@
                             'cards'
                             ' cards';
     }
+}
+@media (max-width: 600px) {
+    .container1{
+        display: grid;
+        grid-template-areas: 'cards'
+                            ' cards'
+                            'cards'
+                            ' cards';
+        
+    }
+   
 }
