@@ -10,6 +10,7 @@ import Feature from './component/Feature'
 import Review from './component/Review'
 import Last from './component/Last'
 import LocomotiveScroll from 'locomotive-scroll';
+import MobilePopup from './popup'
 function App() {
   
 
@@ -18,6 +19,7 @@ const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
       <div className="w-full min-h-screen bg-zinc-200"> 
+      <MobilePopup/>
         <Navbar />
         <Landing/>
         <Marquee/>

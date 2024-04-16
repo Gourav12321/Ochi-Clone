@@ -25,7 +25,7 @@ function Navbar() {
               key={index}
               className={`hidden md:block lg:text-md lg:capitalize lg:block ${
                 index === 4 && "lg:ml-[11vw]"
-              }`}
+              } hover-underline-animation`}
             >
               {" "}
               {item}
